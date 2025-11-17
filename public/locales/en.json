@@ -1,0 +1,151 @@
+{
+  "common": {
+    "wecode": "WeCode",
+    "applyNow": "Apply Now",
+    "learnMore": "Learn More",
+    "language": "Language",
+    "english": "English",
+    "french": "Français"
+  },
+  "navigation": {
+    "programme": "Programme",
+    "about": "About",
+    "testimonials": "Testimonials",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Transform Your Future",
+    "title": "Become an Industry-Ready Developer",
+    "description": "Join our intensive tech bootcamp designed to transform aspiring developers into industry professionals. 8-week intensive program with hands-on projects and mentorship.",
+    "cta_primary": "Start Your Application",
+    "cta_secondary": "Learn More",
+    "stats": {
+      "graduates": "Graduates",
+      "job_placement": "Job Placement",
+      "rating": "Student Rating"
+    }
+  },
+  "programOverview": {
+    "title": "Why Choose WeCode Africa?",
+    "subtitle": "Everything you need to launch your tech career",
+    "features": [
+      {
+        "title": "Expert Curriculum",
+        "description": "Industry-aligned, hands-on learning covering full-stack development"
+      },
+      {
+        "title": "Mentorship",
+        "description": "Connect with experienced developers and industry leaders"
+      },
+      {
+        "title": "Real Projects",
+        "description": "Build portfolio-worthy projects that impress employers"
+      },
+      {
+        "title": "Networking",
+        "description": "Join a community of 500+ graduates across Africa"
+      },
+      {
+        "title": "Career Support",
+        "description": "Resume review, interview prep, and job placements"
+      },
+      {
+        "title": "Certification",
+        "description": "Industry-recognized credentials upon completion"
+      }
+    ]
+  },
+  "programDetails": {
+    "title": "Program Details",
+    "duration": "8 Weeks Intensive",
+    "durationDesc": "Full-time commitment with flexible evening options",
+    "capacity": "Limited Capacity",
+    "capacityDesc": "Max 25 students per cohort for personalized attention",
+    "prerequisites": "Prerequisites",
+    "prerequisitesDesc": "Basic programming knowledge or completion of pre-course",
+    "structure": "Program Structure",
+    "week1_2": "Weeks 1-2: Foundations",
+    "week3_4": "Weeks 3-4: Intermediate",
+    "week5_6": "Weeks 5-6: Advanced",
+    "week7_8": "Weeks 7-8: Capstone Project"
+  },
+  "locations": {
+    "title": "Available Locations",
+    "subtitle": "Start your journey in your city",
+    "cameroon": "Cameroon",
+    "cameroonDesc": "Douala & Yaoundé cohorts",
+    "gabon": "Gabon",
+    "gabonDesc": "Libreville cohort",
+    "togo": "Togo",
+    "togoDesc": "Lomé cohort",
+    "senegal": "Senegal",
+    "senegalDesc": "Dakar cohort",
+    "openSoon": "Open Soon",
+    "enrolling": "Now Enrolling"
+  },
+  "testimonials": {
+    "title": "Success Stories",
+    "subtitle": "Hear from our graduates",
+    "testimonial1": "WeCode changed my life. I went from zero coding knowledge to landing a job at a top tech company in just 3 months after graduation.",
+    "testimonial2": "The mentorship and hands-on projects gave me the confidence I needed. The network I built is invaluable for my career.",
+    "testimonial3": "This program is worth every peso. The instructors are passionate, the curriculum is modern, and the job placement rate speaks for itself."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know",
+    "q1": "Do I need prior coding experience?",
+    "a1": "No, but basic problem-solving skills are helpful. We offer a free pre-course for beginners.",
+    "q2": "What is the program schedule?",
+    "a2": "Full-time: Monday-Friday, 9am-5pm. Evening options available on request.",
+    "q3": "Is there financing available?",
+    "a3": "Yes, we offer flexible payment plans and partnerships with fintech companies.",
+    "q4": "What is the job placement rate?",
+    "a4": "Our graduates have a 92% job placement rate within 3 months of graduation.",
+    "q5": "Is the certificate recognized?",
+    "a5": "Yes, our certificate is recognized by major tech companies across Africa.",
+    "q6": "Can I do the program part-time?",
+    "a6": "We're piloting part-time cohorts. Contact us for more information."
+  },
+  "pricing": {
+    "title": "Pricing Plans",
+    "subtitle": "Invest in your future",
+    "standard": "Standard Track",
+    "extended": "Extended Track",
+    "popular": "Most Popular",
+    "features": "Features included:",
+    "months": "months",
+    "perMonth": "/month",
+    "bestFor": "Best for:",
+    "cta": "Get Started"
+  },
+  "contact": {
+    "title": "Ready to Transform Your Career?",
+    "subtitle": "Get in touch with our admissions team",
+    "email": "Email",
+    "phone": "Phone",
+    "headquarters": "Headquarters",
+    "emailPlaceholder": "your@email.com",
+    "namePlaceholder": "Your Name",
+    "messagePlaceholder": "Tell us about yourself...",
+    "send": "Send Message",
+    "success": "Thank you! We'll be in touch soon.",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "company": "Company",
+    "about": "About Us",
+    "careers": "Careers",
+    "blog": "Blog",
+    "resources": "Resources",
+    "documentation": "Documentation",
+    "guides": "Guides",
+    "community": "Community",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "followUs": "Follow Us",
+    "copyright": "All rights reserved",
+    "madeByCommunity": "Made by the African tech community"
+  }
+}

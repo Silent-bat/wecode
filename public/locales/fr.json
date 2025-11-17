@@ -1,0 +1,151 @@
+{
+  "common": {
+    "wecode": "WeCode",
+    "applyNow": "Postuler Maintenant",
+    "learnMore": "En Savoir Plus",
+    "language": "Langue",
+    "english": "English",
+    "french": "Français"
+  },
+  "navigation": {
+    "programme": "Programme",
+    "about": "À Propos",
+    "testimonials": "Témoignages",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Transformez Votre Avenir",
+    "title": "Devenez un Développeur Prêt pour l'Industrie",
+    "description": "Rejoignez notre bootcamp tech intensif conçu pour transformer les développeurs en herbe en professionnels de l'industrie. Programme intensif de 8 semaines avec projets pratiques et mentorat.",
+    "cta_primary": "Commencer Votre Candidature",
+    "cta_secondary": "En Savoir Plus",
+    "stats": {
+      "graduates": "Diplômés",
+      "job_placement": "Placement Professionnel",
+      "rating": "Note des Étudiants"
+    }
+  },
+  "programOverview": {
+    "title": "Pourquoi Choisir WeCode Africa?",
+    "subtitle": "Tout ce dont vous avez besoin pour lancer votre carrière technologique",
+    "features": [
+      {
+        "title": "Curriculum Expert",
+        "description": "Apprentissage pratique aligné sur l'industrie couvrant le développement full-stack"
+      },
+      {
+        "title": "Mentorat",
+        "description": "Connectez-vous avec des développeurs expérimentés et des leaders de l'industrie"
+      },
+      {
+        "title": "Vrais Projets",
+        "description": "Construisez des projets dignes d'un portfolio qui impressionnent les employeurs"
+      },
+      {
+        "title": "Réseautage",
+        "description": "Rejoignez une communauté de 500+ diplômés à travers l'Afrique"
+      },
+      {
+        "title": "Soutien Professionnel",
+        "description": "Examen de CV, préparation aux entretiens et placements professionnels"
+      },
+      {
+        "title": "Certification",
+        "description": "Identifiants reconnus par l'industrie à la fin du programme"
+      }
+    ]
+  },
+  "programDetails": {
+    "title": "Détails du Programme",
+    "duration": "8 Semaines Intensives",
+    "durationDesc": "Engagement à temps plein avec options du soir flexibles",
+    "capacity": "Capacité Limitée",
+    "capacityDesc": "Max 25 étudiants par cohorte pour une attention personnalisée",
+    "prerequisites": "Prérequis",
+    "prerequisitesDesc": "Connaissances de programmation de base ou pré-cours",
+    "structure": "Structure du Programme",
+    "week1_2": "Semaines 1-2: Fondations",
+    "week3_4": "Semaines 3-4: Intermédiaire",
+    "week5_6": "Semaines 5-6: Avancé",
+    "week7_8": "Semaines 7-8: Projet Capstone"
+  },
+  "locations": {
+    "title": "Localités Disponibles",
+    "subtitle": "Commencez votre parcours dans votre ville",
+    "cameroon": "Cameroun",
+    "cameroonDesc": "Cohortes de Douala et Yaoundé",
+    "gabon": "Gabon",
+    "gabonDesc": "Cohorte de Libreville",
+    "togo": "Togo",
+    "togoDesc": "Cohorte de Lomé",
+    "senegal": "Sénégal",
+    "senegalDesc": "Cohorte de Dakar",
+    "openSoon": "Ouvert Bientôt",
+    "enrolling": "Recrutement en Cours"
+  },
+  "testimonials": {
+    "title": "Histoires de Succès",
+    "subtitle": "Écoutez nos diplômés",
+    "testimonial1": "WeCode a changé ma vie. Je suis passé de zéro connaissance en programmation à l'obtention d'un emploi chez une grande entreprise technologique en seulement 3 mois après la graduation.",
+    "testimonial2": "Le mentorat et les projets pratiques m'ont donné la confiance dont j'avais besoin. Le réseau que j'ai construit est inestimable pour ma carrière.",
+    "testimonial3": "Ce programme vaut chaque franc. Les instructeurs sont passionnés, le curriculum est moderne et le taux de placement professionnel est impressionnant."
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "subtitle": "Tout ce que vous devez savoir",
+    "q1": "Ai-je besoin d'une expérience de codage préalable?",
+    "a1": "Non, mais les compétences en résolution de problèmes de base sont utiles. Nous proposons un pré-cours gratuit pour les débutants.",
+    "q2": "Quel est l'horaire du programme?",
+    "a2": "Temps plein: lundi-vendredi, 9h-17h. Options du soir disponibles sur demande.",
+    "q3": "Y a-t-il un financement disponible?",
+    "a3": "Oui, nous offrons des plans de paiement flexibles et des partenariats avec des entreprises fintech.",
+    "q4": "Quel est le taux de placement professionnel?",
+    "a4": "Nos diplômés ont un taux de placement de 92% dans les 3 mois suivant la graduation.",
+    "q5": "Le certificat est-il reconnu?",
+    "a5": "Oui, notre certificat est reconnu par les grandes entreprises technologiques en Afrique.",
+    "q6": "Puis-je suivre le programme à temps partiel?",
+    "a6": "Nous testons les cohortes à temps partiel. Contactez-nous pour plus d'informations."
+  },
+  "pricing": {
+    "title": "Plans de Tarification",
+    "subtitle": "Investissez dans votre avenir",
+    "standard": "Piste Standard",
+    "extended": "Piste Prolongée",
+    "popular": "Plus Populaire",
+    "features": "Fonctionnalités incluses:",
+    "months": "mois",
+    "perMonth": "/mois",
+    "bestFor": "Meilleur pour:",
+    "cta": "Commencer"
+  },
+  "contact": {
+    "title": "Prêt à Transformer Votre Carrière?",
+    "subtitle": "Contactez notre équipe d'admission",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "headquarters": "Siège Social",
+    "emailPlaceholder": "votre@email.com",
+    "namePlaceholder": "Votre Nom",
+    "messagePlaceholder": "Parlez-nous de vous...",
+    "send": "Envoyer un Message",
+    "success": "Merci! Nous vous recontacterons bientôt.",
+    "error": "Quelque chose s'est mal passé. Veuillez réessayer."
+  },
+  "footer": {
+    "company": "Entreprise",
+    "about": "À Propos de Nous",
+    "careers": "Carrières",
+    "blog": "Blog",
+    "resources": "Ressources",
+    "documentation": "Documentation",
+    "guides": "Guides",
+    "community": "Communauté",
+    "legal": "Légal",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions de Service",
+    "followUs": "Suivez-Nous",
+    "copyright": "Tous droits réservés",
+    "madeByCommunity": "Fait par la communauté technologique africaine"
+  }
+}
