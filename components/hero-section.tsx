@@ -112,7 +112,7 @@ export function HeroSection({ lang, translations }: HeroSectionProps) {
                 <span className="absolute inset-0 w-3 h-3 bg-green-400 rounded-full animate-ping" />
               </div>
               <span className="text-white">Live Coding Bootcamp</span>
-              <span className="px-2 py-1 bg-primary/20 text-primary rounded-md text-xs font-mono">2024</span>
+              <span className="px-2 py-1 bg-primary/20 text-primary rounded-md text-xs font-mono">2025</span>
             </div>
             
             {/* Dynamic Title with Typing Effect */}
