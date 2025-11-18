@@ -58,10 +58,10 @@ export const frTranslations = {
     "prerequisites": "Prérequis",
     "prerequisitesValue": "Bac+3 STEM ou expérience développement prouvée",
     "modalities": "Modalités",
-    "modalitiesValue": "À distance ou en présentiel : Cameroun - Gabon - Togo",
+    "modalitiesValue": "À distance ou en présentiel à travers l'Afrique",
     "capacity": "Capacité du Programme",
     "capacityValue": "200 apprenants sélectionnés",
-    "programFee": "Frais de Programme (Cameroun)",
+    "programFee": "Frais de Programme",
     "programFeeValue": "150 000 XAF",
     "applicationFee": "Frais de Candidature",
     "applicationFeeValue": "5 000 XAF (non remboursables)"

@@ -88,10 +88,10 @@ export const enTranslations = {
     "prerequisites": "Prerequisites",
     "prerequisitesValue": "Bac+3 STEM or proven development experience",
     "modalities": "Modalities",
-    "modalitiesValue": "Remote or In-Person: Cameroon - Gabon - Togo",
+    "modalitiesValue": "Remote or In-Person across Africa",
     "capacity": "Program Capacity",
     "capacityValue": "200 selected learners",
-    "programFee": "Program Fee (Cameroon)",
+    "programFee": "Program Fee",
     "programFeeValue": "150,000 XAF",
     "applicationFee": "Application Fee",
     "applicationFeeValue": "5,000 XAF (non-refundable)"

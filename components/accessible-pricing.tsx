@@ -91,8 +91,8 @@ export function AccessiblePricing({ lang }: AccessiblePricingProps) {
           
           <p className="text-xl text-green-100 max-w-4xl mx-auto leading-relaxed">
             {lang === 'en'
-              ? 'WeCode Africa offers international quality training at an accessible price for African talents.'
-              : 'WeCode Africa propose une formation de qualité internationale à un tarif accessible pour les talents africains.'}
+              ? 'WeCode Africa offers international quality training at an accessible price for talented individuals across the entire African continent.'
+              : 'WeCode Africa propose une formation de qualité internationale à un tarif accessible pour les talents à travers tout le continent africain.'}
           </p>
         </div>
 

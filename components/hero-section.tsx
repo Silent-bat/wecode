@@ -144,7 +144,7 @@ export function HeroSection({ lang, translations }: HeroSectionProps) {
               
               {/* Key Features Pills */}
               <div className="flex flex-wrap gap-3 pt-4">
-                {['100% Remote', '6 Months', 'Job Guarantee', 'Expert Mentors'].map((feature, i) => (
+                {['Pan-African', '100% Remote', 'Job Guarantee', 'Expert Mentors'].map((feature, i) => (
                   <span 
                     key={feature}
                     className={`px-4 py-2 bg-white/10 backdrop-blur-sm text-blue-100 rounded-full text-sm font-medium border border-white/20 animate-fade-in animate-delay-${i + 1}`}

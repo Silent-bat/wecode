@@ -24,7 +24,6 @@ export function Navigation({ lang, translations }: NavigationProps) {
     { label: lang === 'en' ? 'Success Stories' : 'Histoires de Succès', href: '#testimonials' },
     { label: lang === 'en' ? 'Admission' : 'Admission', href: '#admission' },
     { label: lang === 'en' ? 'FAQ' : 'FAQ', href: '#faq' },
-    { label: lang === 'en' ? 'Contact' : 'Contact', href: '#contact' },
   ]
 
   const switchLanguage = (newLang: Language) => {

@@ -21,8 +21,8 @@ export function AdmissionProcess({ lang }: AdmissionProcessProps) {
       number: "02", 
       title: lang === 'en' ? "Application Review" : "Revue de Dossier",
       description: lang === 'en'
-        ? "Our team carefully evaluates your profile: motivations, career project, technical prerequisites and fit with our training tracks."
-        : "Notre équipe évalue attentivement ton profil : motivations, projet professionnel, prérequis techniques et adéquation avec nos tracks de formation.",
+        ? "Our team carefully evaluates your profile: motivations, career project, technical prerequisites and fit with our training tracks. Open to all African countries."
+        : "Notre équipe évalue attentivement ton profil : motivations, projet professionnel, prérequis techniques et adéquation avec nos tracks de formation. Ouvert à tous les pays africains.",
       icon: "🔍",
       color: "from-purple-500 to-pink-500"
     },

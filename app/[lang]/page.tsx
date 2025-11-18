@@ -11,7 +11,6 @@ import { FAQ } from '@/components/faq'
 import { TrainingTracks } from '@/components/training-tracks'
 import { Pricing } from '@/components/pricing'
 import { Partners } from '@/components/partners'
-import { ContactSection } from '@/components/contact-section'
 import { CareerIntegration } from '@/components/career-integration'
 import { AdmissionProcess } from '@/components/admission-process'
 import { AccessiblePricing } from '@/components/accessible-pricing'
@@ -71,9 +70,6 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         
         {/* Our Partners & Supporters */}
         <Partners lang={lang as Language} translations={currentTranslations} />
-        
-        {/* Contact Section */}
-        <ContactSection lang={lang as Language} translations={currentTranslations} />
       </div>
       <Footer lang={lang as Language} translations={currentTranslations} />
       <ScrollToTop />
