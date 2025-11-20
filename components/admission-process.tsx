@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import type { Language } from '@/lib/i18n'
 
 interface AdmissionProcessProps {
@@ -103,8 +104,11 @@ export function AdmissionProcess({ lang }: AdmissionProcessProps) {
           </p>
         </div>
 
-        {/* Steps */}
-        <div className="space-y-12">
+        {/* Steps and Image Layout */}
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
+          
+          {/* Steps Column */}
+          <div className="space-y-12">
           {steps.map((step, index) => (
             <div 
               key={index}
@@ -144,6 +148,71 @@ export function AdmissionProcess({ lang }: AdmissionProcessProps) {
               )}
             </div>
           ))}
+          </div>
+
+          {/* Image Column */}
+          <div className="order-first lg:order-last">
+            <div className="sticky top-8">
+              <div className="relative group">
+                <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-blue-500/10 to-purple-500/10 p-3 backdrop-blur-sm border border-blue-400/20">
+                  <Image
+                    src="/images/rQlYIA7IpdxtMpfvZn-Fe.png"
+                    alt="WeCode Africa admission process - African students in tech education"
+                    width={600}
+                    height={600}
+                    className="w-full h-auto aspect-square object-cover rounded-2xl shadow-2xl transition-all duration-700 group-hover:scale-[1.02]"
+                  />
+                  {/* Enhanced overlay with process highlights */}
+                  <div className="absolute inset-3 bg-gradient-to-t from-slate-900/70 via-transparent to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                    <div className="absolute bottom-6 left-6 right-6 text-white">
+                      <div className="bg-black/50 backdrop-blur-md rounded-2xl p-5 border border-white/20">
+                        <div className="text-center space-y-4">
+                          <div className="flex justify-center items-center gap-6">
+                            <div className="flex flex-col items-center gap-1">
+                              <div className="w-8 h-8 bg-blue-500/30 rounded-full flex items-center justify-center">
+                                <span className="text-sm">⚡</span>
+                              </div>
+                              <span className="text-xs text-blue-200 font-medium">
+                                {lang === 'en' ? 'Fast Review' : 'Examen Rapide'}
+                              </span>
+                            </div>
+                            <div className="w-px h-8 bg-white/30"></div>
+                            <div className="flex flex-col items-center gap-1">
+                              <div className="w-8 h-8 bg-purple-500/30 rounded-full flex items-center justify-center">
+                                <span className="text-sm">✅</span>
+                              </div>
+                              <span className="text-xs text-purple-200 font-medium">
+                                {lang === 'en' ? 'Fair Process' : 'Processus Équitable'}
+                              </span>
+                            </div>
+                          </div>
+                          <div className="bg-white/10 rounded-lg px-3 py-2">
+                            <p className="text-xs text-white text-center font-semibold">
+                              {lang === 'en' ? '3 Simple Steps to Success' : '3 Étapes Simples vers le Succès'}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Process completion indicator */}
+                  <div className="absolute top-4 right-4 bg-green-500/20 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-all duration-300 animate-pulse">
+                    <span className="text-white text-sm">📋</span>
+                  </div>
+                </div>
+                
+                {/* Refined floating elements */}
+                <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-blue-400 to-purple-400 rounded-full animate-bounce opacity-80" />
+                <div className="absolute -bottom-2 -left-2 w-4 h-4 bg-gradient-to-r from-purple-400 to-blue-400 rounded-full animate-pulse opacity-80" />
+                
+                {/* Connecting lines to steps */}
+                <div className="hidden lg:block absolute -left-8 top-1/3 w-8 h-px bg-gradient-to-l from-blue-400/50 to-transparent" />
+                <div className="hidden lg:block absolute -left-8 top-1/2 w-8 h-px bg-gradient-to-l from-purple-400/50 to-transparent" />
+                <div className="hidden lg:block absolute -left-8 top-2/3 w-8 h-px bg-gradient-to-l from-blue-400/50 to-transparent" />
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* CTA */}

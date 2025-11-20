@@ -148,13 +148,6 @@ export function Partners({ lang, translations }: PartnersProps) {
               ? 'Become part of our growing network of partners'
               : 'Faites partie de notre réseau croissant de partenaires'}
           </p>
-          <a
-            href={`/${lang}#contact`}
-            className="inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-cyan-500 to-cyan-600 text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 hover:-translate-y-1"
-          >
-            {lang === 'en' ? 'Get in Touch' : 'Nous Contacter'}
-            <span>→</span>
-          </a>
         </div>
       </div>
     </section>
