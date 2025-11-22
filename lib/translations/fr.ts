@@ -17,7 +17,7 @@ export const frTranslations = {
   "hero": {
     "badge": "Transformez Votre Avenir",
     "title": "Devenez un Développeur Prêt pour l'Industrie",
-    "description": "Rejoignez notre bootcamp tech intensif conçu pour transformer les développeurs en herbe en professionnels de l'industrie. Programme intensif de 8 semaines avec projets pratiques et mentorat.",
+    "description": "Programme intensif 100% orienté projets — Qwasar · AWS · Google Cloud. Apprends Fullstack, Data/IA, Cloud & DevOps par la pratique (projets, code reviews, standups meeting) et vise une insertion rapide sur le marché du travail.",
     "cta_primary": "Commencer Votre Candidature",
     "cta_secondary": "En Savoir Plus",
     "stats": {
@@ -27,7 +27,7 @@ export const frTranslations = {
     }
   },
   "whyChoose": {
-    "title": "Pourquoi Choisir WeCode Africa",
+    "title": "Pourquoi Choisir WeCodeAfrica",
     "cards": [
       {
         "title": "Apprentissage par Projets",
@@ -141,7 +141,7 @@ export const frTranslations = {
     "q3": "Y a-t-il un financement disponible?",
     "a3": "Oui, nous offrons des plans de paiement flexibles et des partenariats avec des entreprises fintech.",
     "q4": "Quel est le taux de placement professionnel?",
-    "a4": "Nos diplômés ont un taux de placement de 92% dans les 3 mois suivant la graduation.",
+    "a4": "Nos diplômés ont un taux de placement de 84% dans les 3 mois suivant la graduation.",
     "q5": "Le certificat est-il reconnu?",
     "a5": "Oui, notre certificat est reconnu par les grandes entreprises technologiques en Afrique.",
     "q6": "Puis-je suivre le programme à temps partiel?",

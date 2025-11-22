@@ -101,18 +101,48 @@ export function HeroSection({ lang, translations }: HeroSectionProps) {
       {/* Gradient Overlay */}
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent via-background/5 to-background/20" />
 
+      {/* Live Coding Badge - Positioned at top right of screen */}
+      <div className="absolute top-8 right-32 z-20">
+        <div className="inline-flex items-center gap-3 px-6 py-4 bg-gradient-to-r from-slate-800/80 via-slate-700/80 to-slate-800/80 backdrop-blur-xl text-primary rounded-2xl text-sm font-bold border border-primary/40 shadow-2xl hover:shadow-primary/20 transition-all duration-300 hover:scale-105">
+          <div className="relative">
+            <span className="w-3 h-3 bg-green-400 rounded-full animate-pulse block" />
+            <span className="absolute inset-0 w-3 h-3 bg-green-400 rounded-full animate-ping" />
+          </div>
+          <span className="text-white">Live Coding Environment</span>
+          <span className="px-2 py-1 bg-primary/20 text-primary rounded-md text-xs font-mono">2026</span>
+        </div>
+      </div>
+
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center relative z-10">
         {/* Enhanced Left Content */}
         <div className="space-y-12 animate-fade-in">
           <div className="space-y-8">
-            {/* Live Coding Badge */}
-            <div className="inline-flex items-center gap-3 px-6 py-4 bg-gradient-to-r from-slate-800/80 via-slate-700/80 to-slate-800/80 backdrop-blur-xl text-primary rounded-2xl text-sm font-bold border border-primary/40 shadow-2xl hover:shadow-primary/20 transition-all duration-300 hover:scale-105">
-              <div className="relative">
-                <span className="w-3 h-3 bg-green-400 rounded-full animate-pulse block" />
-                <span className="absolute inset-0 w-3 h-3 bg-green-400 rounded-full animate-ping" />
+            
+            {/* Partner Logos - Moved to top */}
+            <div className="flex items-center justify-start gap-8 mb-8">
+              <div className="flex items-center gap-6 opacity-90 hover:opacity-100 transition-opacity duration-300">
+                <div className="relative group">
+                  <img 
+                    src="https://logos-world.net/wp-content/uploads/2021/08/Amazon-Web-Services-AWS-Logo.png" 
+                    alt="AWS" 
+                    className="h-10 w-auto object-contain group-hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+                <div className="relative group">
+                  <img 
+                    src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Logo.png" 
+                    alt="Google Cloud" 
+                    className="h-10 w-auto object-contain group-hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+                <div className="relative group">
+                  <img 
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-miXKwHH5ndI16muHj5PU7ZYZO1ezMv.png" 
+                    alt="Blue Tech" 
+                    className="h-10 w-auto object-contain group-hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
               </div>
-              <span className="text-white">Live Coding Bootcamp</span>
-              <span className="px-2 py-1 bg-primary/20 text-primary rounded-md text-xs font-mono">2025</span>
             </div>
             
             {/* Dynamic Title with Typing Effect */}
@@ -159,7 +189,7 @@ export function HeroSection({ lang, translations }: HeroSectionProps) {
           {/* Enhanced CTA Section */}
           <div className="space-y-8">
             {/* Single Primary CTA - Enhanced */}
-            <div className="flex justify-center">
+            <div className="flex justify-start">
               <a 
                 href="https://tally.so/r/7Rl829" 
                 target="_blank" 
@@ -217,7 +247,7 @@ export function HeroSection({ lang, translations }: HeroSectionProps) {
           <div className="grid grid-cols-3 gap-8 pt-8 border-t border-white/20">
             {[
               { value: "500+", label: "Graduates", color: "text-blue-400", icon: "users" },
-              { value: "92%", label: "Job Placement", color: "text-green-400", icon: "briefcase" },
+              { value: "84%", label: "Job Placement", color: "text-green-400", icon: "briefcase" },
               { value: "4.9/5", label: "Student Rating", color: "text-yellow-400", icon: "star" }
             ].map((stat, index) => (
               <div key={index} className="text-center group cursor-pointer">
@@ -266,7 +296,7 @@ export function HeroSection({ lang, translations }: HeroSectionProps) {
                     <div className="w-3 h-3 bg-yellow-400 rounded-full animate-pulse [animation-delay:0.3s]"></div>
                     <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse [animation-delay:0.6s]"></div>
                   </div>
-                  <span className="text-white/80 text-sm font-mono">wecodingbootcamp.dev</span>
+                  <span className="text-white/80 text-sm font-mono">qwasar.io</span>
                 </div>
                 
                 <div className="flex items-center gap-4">

@@ -14,6 +14,7 @@ import { Partners } from '@/components/partners'
 import { CareerIntegration } from '@/components/career-integration'
 import { AdmissionProcess } from '@/components/admission-process'
 import { AccessiblePricing } from '@/components/accessible-pricing'
+import { ContactSection } from '@/components/contact-section'
 import { Footer } from '@/components/footer'
 import { ScrollToTop } from '@/components/scroll-to-top'
 import { FloatingApplyButton } from '@/components/floating-apply-button'
@@ -70,6 +71,9 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         
         {/* Our Partners & Supporters */}
         <Partners lang={lang as Language} translations={currentTranslations} />
+        
+        {/* Contact Section */}
+        <ContactSection lang={lang as Language} translations={currentTranslations} />
       </div>
       <Footer lang={lang as Language} translations={currentTranslations} />
       <ScrollToTop />

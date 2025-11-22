@@ -312,7 +312,7 @@ export function CareerIntegration({ lang }: CareerIntegrationProps) {
                 <div className="relative group">
                   <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-blue-500/10 to-purple-500/10 p-2 backdrop-blur-sm border border-blue-400/20">
                     <Image
-                      src="/images/20251113_1446_Jeunes-Africains-en-Tech_remix_01k9yqavajfwas3x0m6ed223kc.avif"
+                      src="/images/newimage.png"
                       alt="African tech professionals in different career tracks"
                       width={500}
                       height={500}

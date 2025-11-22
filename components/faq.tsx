@@ -181,12 +181,10 @@ export function FAQ({ lang, translations }: FAQProps) {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="https://tally.so/r/7Rl829" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="px-8 py-3 border-2 border-primary/50 text-primary rounded-xl font-semibold hover:bg-primary/10 transition-all duration-300 text-center"
+                href="#contact" 
+                className="px-8 py-3 bg-gradient-to-r from-primary to-secondary text-primary-foreground rounded-xl font-semibold hover:shadow-lg hover:shadow-primary/30 transition-all duration-300 text-center hover:scale-105"
               >
-                {lang === 'en' ? 'Apply Now' : 'Postuler Maintenant'}
+                {lang === 'en' ? 'Contact Us' : 'Nous Contacter'}
               </a>
             </div>
           </div>

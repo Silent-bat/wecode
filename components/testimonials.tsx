@@ -8,37 +8,37 @@ interface TestimonialsProps {
 export function Testimonials({ lang, translations }: TestimonialsProps) {
   const successStories = [
     {
-      name: 'Amara Johnson',
-      role: 'Senior Frontend Developer',
-      company: 'Tech Startup Lagos',
+      name: 'Fru Duna Tamambang Nji',
+      role: 'Data Scientist',
+      company: 'Tech Solutions Douala',
       image: '👩‍💻',
       text: translations.testimonials.testimonial1,
       rating: 5,
       achievement: 'Increased salary by 300%',
       timeToHire: '2 weeks after graduation',
-      track: 'Fullstack Cloud'
+      track: 'Data Analytics'
     },
     {
-      name: 'Kofi Mensah',
-      role: 'Full Stack Engineer',
-      company: 'Digital Solutions Accra',
+      name: 'Fomegne Meudje Clark Brady',
+      role: 'DevOps Engineer',
+      company: 'Digital Innovation Libreville',
       image: '👨‍💻',
       text: translations.testimonials.testimonial2,
       rating: 5,
       achievement: 'Built 3 production apps',
       timeToHire: '1 month after graduation',
-      track: 'AI/ML + GenAI'
+      track: 'DevOps & Cloud'
     },
     {
-      name: 'Zainab Ahmed',
-      role: 'Backend Developer',
-      company: 'Innovation Hub Khartoum',
+      name: 'Nguetsa Donka Joly Kryss',
+      role: 'Fullstack Developer',
+      company: 'Tech Hub Lomé',
       image: '👩‍💼',
       text: translations.testimonials.testimonial3,
       rating: 5,
       achievement: 'Leading a dev team',
       timeToHire: '3 weeks after graduation',
-      track: 'Data Analytics'
+      track: 'Fullstack Cloud'
     },
   ]
 

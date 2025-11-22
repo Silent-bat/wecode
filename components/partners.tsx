@@ -9,51 +9,77 @@ interface PartnersProps {
 }
 
 export function Partners({ lang, translations }: PartnersProps) {
-  const partners = [
+  const partnerCategories = [
     {
-      name: translations.partners.amazon,
-      logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-Fxw7jzeUF5348NelReHc3lHEJuZeXn.png',
-      alt: 'Amazon'
+      title: lang === 'en' ? 'Technology Partners' : 'Partenaires Technologiques',
+      color: 'from-blue-500/20 to-cyan-500/20',
+      borderColor: 'border-blue-500/30',
+      partners: [
+        {
+          name: translations.partners.blueTech,
+          logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-miXKwHH5ndI16muHj5PU7ZYZO1ezMv.png',
+          alt: 'Blue Tech'
+        },
+        {
+          name: translations.partners.amazon,
+          logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-Fxw7jzeUF5348NelReHc3lHEJuZeXn.png',
+          alt: 'Amazon Web Services'
+        },
+        {
+          name: translations.partners.googleCloud,
+          logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-cLAp9f4Zx1JdDoPtODoItXHsiutSM7.png',
+          alt: 'Google Cloud'
+        }
+      ]
     },
     {
-      name: translations.partners.cadit,
-      logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-AIjeXdeCzkxGLfnBT1GqsXvuj7Mxf8.png',
-      alt: 'CADIT - Cameroon Digital Tank'
+      title: lang === 'en' ? 'Academic Partners & Innovation Hubs' : 'Partenaires Académiques & Hubs Innovation',
+      color: 'from-green-500/20 to-emerald-500/20',
+      borderColor: 'border-green-500/30',
+      partners: [
+        {
+          name: translations.partners.jfn,
+          logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-cOXsHQo1C0Di0C8mR8wCKiSegNMbS0.png',
+          alt: 'JFN Hightech University Institute'
+        },
+        {
+          name: translations.partners.mountainHub,
+          logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-mlJO4Gxp7vBqD2ry5r4dsI6ZgRkyaJ.png',
+          alt: 'Mountain Hub'
+        },
+        {
+          name: translations.partners.enovation,
+          logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-jognVICMdXmvjLzHPaSEAX90wu4ZTN.png',
+          alt: 'Enovation Factory'
+        },
+        {
+          name: translations.partners.ecole24,
+          logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-KH8YPzMU80tkzdsSgEmIGDoj2l04DL.png',
+          alt: 'Ecole 24'
+        }
+      ]
     },
     {
-      name: translations.partners.enovation,
-      logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-jognVICMdXmvjLzHPaSEAX90wu4ZTN.png',
-      alt: 'Enovation Factory'
-    },
-    {
-      name: translations.partners.blueTech,
-      logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-miXKwHH5ndI16muHj5PU7ZYZO1ezMv.png',
-      alt: 'Blue Tech'
-    },
-    {
-      name: translations.partners.googleCloud,
-      logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-cLAp9f4Zx1JdDoPtODoItXHsiutSM7.png',
-      alt: 'Google Cloud'
-    },
-    {
-      name: translations.partners.ecole24,
-      logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-KH8YPzMU80tkzdsSgEmIGDoj2l04DL.png',
-      alt: 'Ecole 24'
-    },
-    {
-      name: translations.partners.jfn,
-      logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-cOXsHQo1C0Di0C8mR8wCKiSegNMbS0.png',
-      alt: 'JFN Hightech University Institute'
-    },
-    {
-      name: translations.partners.teolis,
-      logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-1VIQ18bksZyG0pw2IoVqmsEBdCTLtl.png',
-      alt: 'Fondation Teolis'
-    },
-    {
-      name: translations.partners.mountainHub,
-      logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-mlJO4Gxp7vBqD2ry5r4dsI6ZgRkyaJ.png',
-      alt: 'Mountain Hub'
+      title: lang === 'en' ? 'Placement & Recruitment Partners' : 'Partenaires Placement & Recrutement',
+      color: 'from-purple-500/20 to-pink-500/20',
+      borderColor: 'border-purple-500/30',
+      partners: [
+        {
+          name: translations.partners.teolis,
+          logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-1VIQ18bksZyG0pw2IoVqmsEBdCTLtl.png',
+          alt: 'Fondation Teolis'
+        },
+        {
+          name: translations.partners.cadit,
+          logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-AIjeXdeCzkxGLfnBT1GqsXvuj7Mxf8.png',
+          alt: 'CADIT - Cameroon Digital Tank'
+        },
+        {
+          name: 'Talanteun Breedj',
+          logo: '/images/BaS6hpznWvRF44mYMRvHz.jpg',
+          alt: 'Talanteun Breedj'
+        }
+      ]
     }
   ]
 
@@ -114,28 +140,43 @@ export function Partners({ lang, translations }: PartnersProps) {
           </p>
         </div>
 
-        {/* Partners Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {partners.map((partner, index) => (
-            <div
-              key={index}
-              className="group relative p-8 rounded-xl border border-cyan-500/20 bg-gradient-to-br from-cyan-500/5 to-transparent hover:border-cyan-500/50 hover:bg-cyan-500/10 transition-all duration-300 flex items-center justify-center min-h-[180px]"
-            >
-              {/* Hover effect background */}
-              <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 to-orange-500/10 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-
-              {/* Logo Container */}
-              <div className="relative w-full h-full flex items-center justify-center">
-                <img
-                  src={partner.logo || "/placeholder.svg"}
-                  alt={partner.alt}
-                  className="max-w-full max-h-24 object-contain filter brightness-90 group-hover:brightness-110 transition-all duration-300"
-                />
+        {/* Partners by Category */}
+        <div className="space-y-16">
+          {partnerCategories.map((category, categoryIndex) => (
+            <div key={categoryIndex}>
+              {/* Category Header */}
+              <div className="text-center mb-8">
+                <h3 className="text-2xl font-bold text-white mb-2">
+                  {category.title}
+                </h3>
+                <div className={`w-16 h-1 bg-gradient-to-r ${category.color.replace('/20', '')} rounded-full mx-auto`}></div>
               </div>
 
-              {/* Tooltip - Partner Name */}
-              <div className="absolute bottom-2 left-2 right-2 bg-gray-900/80 backdrop-blur-sm text-white text-sm px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-center truncate">
-                {partner.name}
+              {/* Category Partners Grid */}
+              <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto`}>
+                {category.partners.map((partner, index) => (
+                  <div
+                    key={index}
+                    className={`group relative p-6 rounded-xl border ${category.borderColor} bg-gradient-to-br ${category.color} hover:border-opacity-70 transition-all duration-300 flex items-center justify-center min-h-[160px]`}
+                  >
+                    {/* Hover effect background */}
+                    <div className={`absolute inset-0 bg-gradient-to-r ${category.color.replace('/20', '/10')} rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300`} />
+
+                    {/* Logo Container */}
+                    <div className="relative w-full h-full flex items-center justify-center">
+                      <img
+                        src={partner.logo || "/placeholder.svg"}
+                        alt={partner.alt}
+                        className="max-w-full max-h-20 object-contain filter brightness-90 group-hover:brightness-110 transition-all duration-300"
+                      />
+                    </div>
+
+                    {/* Tooltip - Partner Name */}
+                    <div className="absolute bottom-2 left-2 right-2 bg-gray-900/80 backdrop-blur-sm text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-center truncate">
+                      {partner.name}
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           ))}
@@ -148,6 +189,18 @@ export function Partners({ lang, translations }: PartnersProps) {
               ? 'Become part of our growing network of partners'
               : 'Faites partie de notre réseau croissant de partenaires'}
           </p>
+          
+          <div className="mt-8 p-6 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-xl border border-primary/20 max-w-md mx-auto">
+            <h3 className="text-white font-semibold mb-3">
+              {lang === 'en' ? 'Partnership Contact' : 'Contact Partenariat'}
+            </h3>
+            <a 
+              href="mailto:Info@jfn-univ.com" 
+              className="text-primary hover:text-primary/80 transition-colors font-semibold text-lg"
+            >
+              Info@jfn-univ.com
+            </a>
+          </div>
         </div>
       </div>
     </section>

@@ -33,12 +33,12 @@ export function FloatingApplyButton({ lang }: FloatingApplyButtonProps) {
         href="https://tally.so/r/7Rl829"
         target="_blank"
         rel="noopener noreferrer"
-        className="group relative flex items-center gap-3 px-6 py-4 bg-gradient-to-r from-primary via-primary to-secondary text-primary-foreground rounded-full shadow-2xl hover:shadow-primary/30 transition-all duration-300 hover:scale-105 font-bold text-sm"
+        className="group relative flex items-center gap-3 px-6 py-4 bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 text-white rounded-full shadow-2xl hover:shadow-blue-500/40 transition-all duration-300 hover:scale-105 font-bold text-sm"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
         {/* Animated pulse ring */}
-        <div className="absolute inset-0 rounded-full bg-primary/30 animate-ping" />
+        <div className="absolute inset-0 rounded-full bg-blue-500/30 animate-ping" />
         
         {/* Background gradient animation */}
         <span className="absolute inset-0 rounded-full bg-gradient-to-r from-secondary to-primary opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

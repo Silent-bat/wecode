@@ -17,7 +17,7 @@ export const enTranslations = {
   "hero": {
     "badge": "Transform Your Future",
     "title": "Become an Industry-Ready Developer",
-    "description": "Join our intensive tech bootcamp designed to transform aspiring developers into industry professionals. 8-week intensive program with hands-on projects and mentorship.",
+    "description": "Intensive 100% project-oriented program — Qwasar · AWS · Google Cloud. Learn Fullstack, Data/AI, Cloud & DevOps through practice (projects, code reviews, standups meetings) and aim for rapid insertion into the job market.",
     "cta_primary": "Start Your Application",
     "cta_secondary": "Learn More",
     "stats": {
@@ -27,7 +27,7 @@ export const enTranslations = {
     }
   },
   "whyChoose": {
-    "title": "Why Choose WeCode Africa",
+    "title": "Why Choose WeCodeAfrica",
     "cards": [
       {
         "title": "Project-Based Learning",
@@ -141,7 +141,7 @@ export const enTranslations = {
     "q3": "Is there financing available?",
     "a3": "Yes, we offer flexible payment plans and partnerships with fintech companies.",
     "q4": "What is the job placement rate?",
-    "a4": "Our graduates have a 92% job placement rate within 3 months of graduation.",
+    "a4": "Our graduates have a 84% job placement rate within 3 months of graduation.",
     "q5": "Is the certificate recognized?",
     "a5": "Yes, our certificate is recognized by major tech companies across Africa.",
     "q6": "Can I do the program part-time?",

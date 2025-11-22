@@ -118,109 +118,103 @@ export function WhyChooseSection({ lang, translations }: WhyChooseSectionProps) 
           </h2>
         </div>
 
-        {/* Main Content Grid */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-          {/* Image Column */}
-          <div className="order-2 lg:order-1">
-            <div className="relative group">
-              {/* Image Container with Enhanced Visual Effects */}
-              <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary/10 to-secondary/10 p-2 backdrop-blur-sm border border-primary/20">
-                <Image
-                  src="/images/8BI1Oy1hp3M30ICkqiPyO.png"
-                  alt="African tech professionals collaborating"
-                  width={600}
-                  height={600}
-                  className="w-full h-auto aspect-square object-cover rounded-2xl shadow-2xl transition-all duration-700 group-hover:scale-[1.02] group-hover:shadow-3xl"
-                  priority
-                />
-                {/* Subtle overlay gradient */}
-                <div className="absolute inset-2 bg-gradient-to-t from-slate-900/20 via-transparent to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                
-                {/* Tech elements overlay */}
-                <div className="absolute top-4 right-4 bg-primary/90 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-all duration-300 animate-pulse">
-                  <span className="text-white text-sm font-bold">💡</span>
-                </div>
-              </div>
-              
-              {/* Refined floating elements */}
-              <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-secondary to-primary rounded-full animate-bounce opacity-80" />
-              <div className="absolute -bottom-2 -left-2 w-4 h-4 bg-gradient-to-r from-primary to-secondary rounded-full animate-pulse opacity-80" />
-            </div>
-          </div>
-
-          {/* Text Column */}
-          <div className="order-1 lg:order-2 space-y-8">
-            <div className="space-y-6">
-              <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary/15 to-secondary/15 rounded-full text-sm font-semibold text-primary border border-primary/25 backdrop-blur-sm">
-                <span className="text-xl">🌍</span>
-                {lang === 'en' ? 'Leading African Tech Education' : 'Formation Tech Africaine de Pointe'}
-              </div>
-              
-              <h3 className="text-3xl lg:text-4xl font-bold text-white leading-tight">
-                {lang === 'en' 
-                  ? 'Transform Your Future with African Tech Excellence'
-                  : 'Transformez Votre Avenir avec l\'Excellence Tech Africaine'
-                }
-              </h3>
-              
-              <p className="text-lg text-gray-300 leading-relaxed">
-                {lang === 'en' 
-                  ? 'Join a community of ambitious African developers who are transforming the continent\'s tech landscape through innovative education and real-world experience.'
-                  : 'Rejoignez une communauté de développeurs africains ambitieux qui transforment le paysage technologique du continent grâce à une éducation innovante et une expérience du monde réel.'
-                }
-              </p>
-              
-              {/* Enhanced Statistics Grid */}
-              <div className="grid grid-cols-3 gap-4 pt-4">
-                <div className="text-center p-4 bg-gradient-to-br from-secondary/10 to-transparent rounded-xl border border-secondary/20">
-                  <div className="text-2xl font-bold text-secondary mb-1">500+</div>
-                  <div className="text-xs text-gray-400 uppercase tracking-wider">
-                    {lang === 'en' ? 'Graduates' : 'Diplômés'}
-                  </div>
-                </div>
-                <div className="text-center p-4 bg-gradient-to-br from-primary/10 to-transparent rounded-xl border border-primary/20">
-                  <div className="text-2xl font-bold text-primary mb-1">90%</div>
-                  <div className="text-xs text-gray-400 uppercase tracking-wider">
-                    {lang === 'en' ? 'Job Placement' : 'Placement Pro'}
-                  </div>
-                </div>
-                <div className="text-center p-4 bg-gradient-to-br from-secondary/10 to-transparent rounded-xl border border-secondary/20">
-                  <div className="text-2xl font-bold text-secondary mb-1">15+</div>
-                  <div className="text-xs text-gray-400 uppercase tracking-wider">
-                    {lang === 'en' ? 'Countries' : 'Pays'}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Cards Grid */}
-        <div className="grid md:grid-cols-2 gap-8">
+        {/* Optimized Layout with Right Image */}
+        <div className="grid lg:grid-cols-5 gap-16 items-start">
+          {/* Content Column - Left side */}
+          <div className="lg:col-span-3 order-1 lg:order-1">
+            <div className="grid gap-6">
           {cards.map((card, index) => (
             <div
               key={index}
-              className="group relative p-8 rounded-2xl bg-gradient-to-br from-[#001A2E]/50 to-[#0D3B66]/50 border border-[#00D4AA]/20 hover:border-[#00D4AA]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#00D4AA]/10"
+              className="group relative flex items-start gap-6 p-6 rounded-2xl bg-gradient-to-r from-[#001A2E]/50 to-[#0D3B66]/50 border border-[#00D4AA]/20 hover:border-[#00D4AA]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#00D4AA]/10 hover:translate-x-2"
             >
-              {/* Icon */}
-              <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">
-                {icons[index]}
+              {/* Icon Container */}
+              <div className="flex-shrink-0">
+                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center text-3xl transform group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
+                  {icons[index]}
+                </div>
               </div>
 
-              {/* Title */}
-              <h3 className="text-xl md:text-2xl font-bold text-white mb-3">
-                {card.title}
-              </h3>
+              {/* Content */}
+              <div className="flex-1 min-w-0">
+                {/* Title */}
+                <h3 className="text-lg md:text-xl font-bold text-white mb-2 group-hover:text-primary transition-colors duration-300">
+                  {card.title}
+                </h3>
 
-              {/* Description */}
-              <p className="text-gray-300 leading-relaxed text-sm md:text-base">
-                {card.description}
-              </p>
+                {/* Description */}
+                <p className="text-gray-300 leading-relaxed text-sm group-hover:text-gray-200 transition-colors duration-300">
+                  {card.description}
+                </p>
+              </div>
+
+              {/* Arrow indicator */}
+              <div className="flex-shrink-0 opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:translate-x-1">
+                <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                </svg>
+              </div>
 
               {/* Accent Line */}
-              <div className="absolute bottom-0 left-0 h-1 bg-gradient-to-r from-[#00D4AA] to-[#FF9500] rounded-full transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300 w-full" />
+              <div className="absolute bottom-0 left-0 h-1 bg-gradient-to-r from-[#00D4AA] to-[#FF9500] rounded-full transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500 w-full" />
+              
+              {/* Background accent */}
+              <div className="absolute inset-0 bg-gradient-to-r from-primary/5 to-secondary/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10" />
             </div>
           ))}
+            </div>
+          </div>
+
+          {/* Image Column - Right side */}
+          <div className="lg:col-span-2 order-2 lg:order-2">
+            <div className="sticky top-8">
+              <div className="relative group">
+                {/* Enhanced Image Container */}
+                <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary/10 to-secondary/10 p-3 backdrop-blur-sm border border-primary/30">
+                  <Image
+                    src="/images/8BI1Oy1hp3M30ICkqiPyO.png"
+                    alt="African tech professionals collaborating"
+                    width={500}
+                    height={500}
+                    className="w-full h-auto aspect-square object-cover rounded-2xl shadow-2xl transition-all duration-700 group-hover:scale-[1.03] group-hover:shadow-3xl"
+                    priority
+                  />
+                  {/* Enhanced overlay gradient */}
+                  <div className="absolute inset-3 bg-gradient-to-t from-slate-900/40 via-transparent to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  
+                  {/* Success indicator */}
+                  <div className="absolute top-5 left-5 bg-green-500/90 backdrop-blur-sm rounded-full p-2 opacity-0 group-hover:opacity-100 transition-all duration-300 animate-pulse">
+                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  
+                  {/* Feature highlights overlay */}
+                  <div className="absolute bottom-5 left-5 right-5 bg-black/60 backdrop-blur-md rounded-xl p-3 opacity-0 group-hover:opacity-100 transition-opacity duration-500 border border-white/20">
+                    <div className="text-white text-center">
+                      <div className="text-sm font-semibold mb-1">
+                        {lang === 'en' ? 'WeCode Africa Excellence' : 'Excellence WeCode Africa'}
+                      </div>
+                      <div className="flex justify-center gap-4 text-xs">
+                        <span className="text-primary">🚀 Innovation</span>
+                        <span className="text-secondary">🌍 Standards</span>
+                        <span className="text-green-400">💼 Results</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Enhanced floating elements with connection lines */}
+                <div className="absolute -top-3 -left-3 w-8 h-8 bg-gradient-to-r from-secondary to-primary rounded-full animate-bounce opacity-90" />
+                <div className="absolute -bottom-3 -right-3 w-6 h-6 bg-gradient-to-r from-primary to-secondary rounded-full animate-pulse opacity-90" />
+                
+                {/* Connection lines to content */}
+                <div className="hidden lg:block absolute -left-8 top-1/4 w-8 h-px bg-gradient-to-l from-primary/50 to-transparent" />
+                <div className="hidden lg:block absolute -left-8 top-1/2 w-8 h-px bg-gradient-to-l from-secondary/50 to-transparent" />
+                <div className="hidden lg:block absolute -left-8 top-3/4 w-8 h-px bg-gradient-to-l from-primary/50 to-transparent" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
