@@ -132,7 +132,7 @@ export function HeroSection({ lang, translations }: HeroSectionProps) {
                   <img 
                     src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Logo.png" 
                     alt="Google Cloud" 
-                    className="h-16 w-auto object-contain group-hover:scale-110 transition-transform duration-300"
+                    className="h-24 w-auto object-contain group-hover:scale-110 transition-transform duration-300"
                   />
                 </div>
                 <div className="relative group">
