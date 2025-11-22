@@ -101,8 +101,8 @@ export function HeroSection({ lang, translations }: HeroSectionProps) {
       {/* Gradient Overlay */}
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent via-background/5 to-background/20" />
 
-      {/* Live Coding Badge - Positioned at top right of screen */}
-      <div className="absolute top-8 right-32 z-20">
+      {/* Live Coding Badge - Responsive positioning */}
+      <div className="hidden md:block absolute top-8 right-32 z-20">
         <div className="inline-flex items-center gap-3 px-6 py-4 bg-gradient-to-r from-slate-800/80 via-slate-700/80 to-slate-800/80 backdrop-blur-xl text-primary rounded-2xl text-sm font-bold border border-primary/40 shadow-2xl hover:shadow-primary/20 transition-all duration-300 hover:scale-105">
           <div className="relative">
             <span className="w-3 h-3 bg-green-400 rounded-full animate-pulse block" />
@@ -112,7 +112,7 @@ export function HeroSection({ lang, translations }: HeroSectionProps) {
           <span className="px-2 py-1 bg-primary/20 text-primary rounded-md text-xs font-mono">2026</span>
         </div>
       </div>
-
+      
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center relative z-10">
         {/* Enhanced Left Content */}
         <div className="space-y-12 animate-fade-in">
@@ -123,7 +123,7 @@ export function HeroSection({ lang, translations }: HeroSectionProps) {
               <div className="flex items-center gap-6 opacity-90 hover:opacity-100 transition-opacity duration-300">
                 <div className="relative group">
                   <img 
-                    src="https://logos-world.net/wp-content/uploads/2021/08/Amazon-Web-Services-AWS-Logo.png" 
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-Fxw7jzeUF5348NelReHc3lHEJuZeXn.png" 
                     alt="AWS" 
                     className="h-10 w-auto object-contain group-hover:scale-110 transition-transform duration-300"
                   />
@@ -132,7 +132,7 @@ export function HeroSection({ lang, translations }: HeroSectionProps) {
                   <img 
                     src="https://logos-world.net/wp-content/uploads/2021/02/Google-Cloud-Logo.png" 
                     alt="Google Cloud" 
-                    className="h-10 w-auto object-contain group-hover:scale-110 transition-transform duration-300"
+                    className="h-16 w-auto object-contain group-hover:scale-110 transition-transform duration-300"
                   />
                 </div>
                 <div className="relative group">
@@ -142,6 +142,18 @@ export function HeroSection({ lang, translations }: HeroSectionProps) {
                     className="h-10 w-auto object-contain group-hover:scale-110 transition-transform duration-300"
                   />
                 </div>
+              </div>
+            </div>
+            
+            {/* Mobile version of Live Coding Badge - positioned after logos */}
+            <div className="md:hidden flex justify-end mb-6">
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-slate-800/80 via-slate-700/80 to-slate-800/80 backdrop-blur-xl text-primary rounded-xl text-xs font-bold border border-primary/40">
+                <div className="relative">
+                  <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse block" />
+                  <span className="absolute inset-0 w-2 h-2 bg-green-400 rounded-full animate-ping" />
+                </div>
+                <span className="text-white">Live Coding Environment</span>
+                <span className="px-1 py-0.5 bg-primary/20 text-primary rounded text-xs font-mono">2026</span>
               </div>
             </div>
             
