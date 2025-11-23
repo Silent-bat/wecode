@@ -53,9 +53,14 @@ export function Partners({ lang, translations }: PartnersProps) {
           alt: 'Enovation Factory'
         },
         {
-          name: translations.partners.ecole24,
+          name: 'Ecole 241',
           logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-KH8YPzMU80tkzdsSgEmIGDoj2l04DL.png',
-          alt: 'Ecole 24'
+          alt: 'Ecole 241'
+        },
+        {
+          name: 'Ogooue Labs',
+          logo: '/images/ougue_labs.png',
+          alt: 'Ogooue Labs'
         }
       ]
     },
@@ -167,7 +172,9 @@ export function Partners({ lang, translations }: PartnersProps) {
                       <img
                         src={partner.logo || "/placeholder.svg"}
                         alt={partner.alt}
-                        className="max-w-full max-h-20 object-contain filter brightness-90 group-hover:brightness-110 transition-all duration-300"
+                        className={`max-w-full max-h-20 object-contain filter brightness-90 group-hover:brightness-110 transition-all duration-300 ${
+                          partner.name === 'Mountain Hub' ? 'bg-white rounded-lg p-2' : ''
+                        }`}
                       />
                     </div>
 

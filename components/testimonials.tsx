@@ -19,7 +19,7 @@ export function Testimonials({ lang, translations }: TestimonialsProps) {
       track: 'Data Analytics'
     },
     {
-      name: 'Fomegne Meudje Clark Brady',
+      name: 'Lyne Boussamba',
       role: 'DevOps Engineer',
       company: 'Digital Innovation Libreville',
       image: '👨‍💻',
@@ -30,7 +30,7 @@ export function Testimonials({ lang, translations }: TestimonialsProps) {
       track: 'DevOps & Cloud'
     },
     {
-      name: 'Nguetsa Donka Joly Kryss',
+      name: 'Kwame Mensah',
       role: 'Fullstack Developer',
       company: 'Tech Hub Lomé',
       image: '👩‍💼',

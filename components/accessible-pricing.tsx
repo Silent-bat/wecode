@@ -119,7 +119,7 @@ export function AccessiblePricing({ lang }: AccessiblePricingProps) {
 
               <div className="text-center py-8">
                 <div className="text-5xl font-black text-green-400 mb-2">
-                  150,000 <span className="text-2xl">XAF</span>
+                  300,000 <span className="text-2xl">FCFA</span>
                 </div>
                 <p className="text-green-200">
                   {lang === 'en' ? 'with international certifications included' : 'avec certifications internationales incluses'}
@@ -163,7 +163,7 @@ export function AccessiblePricing({ lang }: AccessiblePricingProps) {
 
               <div className="text-center py-8">
                 <div className="text-5xl font-black text-blue-400 mb-2">
-                  5,000 <span className="text-2xl">XAF</span>
+                  5,000 <span className="text-2xl">FCFA</span>
                 </div>
                 <p className="text-red-300 font-medium">
                   {lang === 'en' ? 'non-refundable' : 'non remboursables'}

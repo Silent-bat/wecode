@@ -44,10 +44,10 @@ export function KeyProgramInfo({ lang, translations }: KeyProgramInfoProps) {
       icon: '👥'
     },
     {
-      label: lang === 'en' ? 'Program Fee (Cameroon)' : 'Tarif Programme (Cameroun)',
+      label: lang === 'en' ? 'Program Fee' : 'Tarif Programme',
       value: lang === 'en' 
-        ? '175000 XAF (Discounted price thanks to partners, actual value 1,500,000 XAF)'
-        : '175000 F CFA (Prix remisé grâce aux partenaires, valeur réelle 1 500 000 F CFA)',
+        ? '300000 FCFA (Discounted price thanks to partners, actual value 1,500,000 FCFA)'
+        : '300000 FCFA (Prix remisé grâce aux partenaires, valeur réelle 1 500 000 FCFA)',
       icon: '💰'
     },
     {
