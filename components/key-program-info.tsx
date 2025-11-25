@@ -46,8 +46,8 @@ export function KeyProgramInfo({ lang, translations }: KeyProgramInfoProps) {
     {
       label: lang === 'en' ? 'Program Fee' : 'Tarif Programme',
       value: lang === 'en' 
-        ? '300000 FCFA (Discounted price thanks to partners, actual value 1,500,000 FCFA)'
-        : '300000 FCFA (Prix remisé grâce aux partenaires, valeur réelle 1 500 000 FCFA)',
+        ? '300 000 FCFA (Discounted price thanks to partners, actual value 1 500 000 FCFA)'
+        : '300 000 FCFA (Prix remisé grâce aux partenaires, valeur réelle 1 500 000 FCFA)',
       icon: '💰'
     },
     {

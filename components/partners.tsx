@@ -44,8 +44,13 @@ export function Partners({ lang, translations }: PartnersProps) {
         },
         {
           name: translations.partners.mountainHub,
-          logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-mlJO4Gxp7vBqD2ry5r4dsI6ZgRkyaJ.png',
+          logo: '/images/mountainhub.jpeg',
           alt: 'Mountain Hub'
+        },
+        {
+          name: '10000 Codeurs',
+          logo: '/images/10000Codeurs.png',
+          alt: '10000 Codeurs'
         },
         {
           name: translations.partners.enovation,

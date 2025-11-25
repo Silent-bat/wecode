@@ -38,7 +38,7 @@ export function ContactSection({ lang, translations }: ContactSectionProps) {
       country: 'Gabon',
       icon: '🇬🇦',
       email: 'sylvientchandi@gmail.com',
-      phone: '+241 77000980',
+      phone: '+241 077323211',
     },
     {
       country: 'Togo',

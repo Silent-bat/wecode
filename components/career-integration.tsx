@@ -256,6 +256,18 @@ export function CareerIntegration({ lang }: CareerIntegrationProps) {
                   {step.description}
                 </p>
 
+                {/* 10000 Codeurs Community - Only for Intensive Coaching */}
+                {index === 1 && (
+                  <div className={`mt-6 p-4 bg-gradient-to-r from-purple-500/10 to-pink-500/10 border border-purple-400/30 rounded-xl max-w-2xl ${index % 2 === 0 ? 'lg:mx-0' : 'lg:ml-auto'} mx-auto`}>
+                    <p className="text-base text-purple-200 leading-relaxed">
+                      {lang === 'en'
+                        ? 'Join the 10,000 Coders community to improve visibility, digital culture, posture, network, leadership and succeed in your professional integration.'
+                        : 'Intègre la communauté 10.000 codeurs pour améliorer visibilité, culture numérique, posture, réseau, leadership et réussir ton insertion professionnelle.'
+                      }
+                    </p>
+                  </div>
+                )}
+
                 {/* Step Benefits */}
                 <div className={`flex flex-wrap gap-2 ${index % 2 === 0 ? 'lg:justify-start' : 'lg:justify-end'} justify-center`}>
                   {index === 0 && (
