@@ -16,9 +16,9 @@ export function Partners({ lang, translations }: PartnersProps) {
       borderColor: 'border-blue-500/30',
       partners: [
         {
-          name: translations.partners.blueTech,
+          name: 'Qwasar',
           logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-miXKwHH5ndI16muHj5PU7ZYZO1ezMv.png',
-          alt: 'Blue Tech'
+          alt: 'Qwasar'
         },
         {
           name: translations.partners.amazon,
@@ -75,6 +75,11 @@ export function Partners({ lang, translations }: PartnersProps) {
       borderColor: 'border-purple-500/30',
       partners: [
         {
+          name: 'Breedj',
+          logo: '/images/breej.jpeg',
+          alt: 'Breedj'
+        },
+        {
           name: translations.partners.teolis,
           logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-1VIQ18bksZyG0pw2IoVqmsEBdCTLtl.png',
           alt: 'Fondation Teolis'
@@ -83,11 +88,6 @@ export function Partners({ lang, translations }: PartnersProps) {
           name: translations.partners.cadit,
           logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-AIjeXdeCzkxGLfnBT1GqsXvuj7Mxf8.png',
           alt: 'CADIT - Cameroon Digital Tank'
-        },
-        {
-          name: 'Talanteun Breedj',
-          logo: '/images/BaS6hpznWvRF44mYMRvHz.jpg',
-          alt: 'Talanteun Breedj'
         }
       ]
     }
