@@ -172,7 +172,9 @@ export function Partners({ lang, translations }: PartnersProps) {
                 {category.partners.map((partner, index) => (
                   <div
                     key={index}
-                    className={`group relative p-6 rounded-xl border ${category.borderColor} bg-gradient-to-br ${category.color} hover:border-opacity-70 transition-all duration-300 flex items-center justify-center min-h-[160px]`}
+                    className={`group relative p-6 rounded-xl border ${category.borderColor} bg-gradient-to-br ${category.color} hover:border-opacity-70 transition-all duration-300 flex items-center justify-center min-h-[160px] ${
+                      partner.name === 'Boukarou' ? 'col-start-2' : ''
+                    }`}
                   >
                     {/* Hover effect background */}
                     <div className={`absolute inset-0 bg-gradient-to-r ${category.color.replace('/20', '/10')} rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300`} />
@@ -182,9 +184,7 @@ export function Partners({ lang, translations }: PartnersProps) {
                       <img
                         src={partner.logo || "/placeholder.svg"}
                         alt={partner.alt}
-                        className={`max-w-full max-h-20 object-contain filter brightness-90 group-hover:brightness-110 transition-all duration-300 ${
-                          partner.name === 'Mountain Hub' ? 'bg-white rounded-lg p-2' : ''
-                        }`}
+                        className="max-w-full max-h-20 object-contain filter brightness-90 group-hover:brightness-110 transition-all duration-300"
                       />
                     </div>
 
