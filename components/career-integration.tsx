@@ -69,7 +69,7 @@ export function CareerIntegration({ lang }: CareerIntegrationProps) {
   ]
 
   return (
-    <section className="relative py-24 px-6 bg-gradient-to-b from-background via-slate-900/50 to-background overflow-hidden">
+    <section id="career" className="relative py-24 px-6 bg-gradient-to-b from-background via-slate-900/50 to-background overflow-hidden">
       {/* Falling Grid Background */}
       <div className="absolute inset-0 opacity-20">
         <div 

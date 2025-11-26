@@ -20,18 +20,18 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     icons: {
       icon: [
         {
-          url: '/images/ougue_labs.png',
+          url: '/images/favicon.png',
           sizes: '32x32',
           type: 'image/png',
         },
         {
-          url: '/images/ougue_labs.png',
+          url: '/images/favicon.png',
           sizes: '16x16',
           type: 'image/png',
         },
       ],
-      apple: '/images/ougue_labs.png',
-      shortcut: '/images/ougue_labs.png',
+      apple: '/images/favicon.png',
+      shortcut: '/images/favicon.png',
     },
   }
 }

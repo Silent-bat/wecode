@@ -39,7 +39,7 @@ export function AdmissionProcess({ lang }: AdmissionProcessProps) {
   ]
 
   return (
-    <section className="relative py-24 px-6 overflow-hidden">
+    <section id="admission" className="relative py-24 px-6 overflow-hidden">
       {/* Hero-style Advanced Animated Background */}
       <div className="absolute inset-0 -z-20 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">
         {/* Aurora Effect */}

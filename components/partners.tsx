@@ -66,6 +66,11 @@ export function Partners({ lang, translations }: PartnersProps) {
           name: 'Ogooue Labs',
           logo: '/images/ougue_labs.png',
           alt: 'Ogooue Labs'
+        },
+        {
+          name: 'Boukarou',
+          logo: '/images/boukarou.png',
+          alt: 'Boukarou'
         }
       ]
     },

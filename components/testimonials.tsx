@@ -15,7 +15,7 @@ export function Testimonials({ lang, translations }: TestimonialsProps) {
       text: translations.testimonials.testimonial1,
       rating: 5,
       achievement: 'Increased salary by 300%',
-      timeToHire: '2 weeks after graduation',
+      timeToHire: '2 weeks after certification',
       track: 'Data Analytics'
     },
     {
@@ -26,7 +26,7 @@ export function Testimonials({ lang, translations }: TestimonialsProps) {
       text: translations.testimonials.testimonial2,
       rating: 5,
       achievement: 'Built 3 production apps',
-      timeToHire: '1 month after graduation',
+      timeToHire: '1 month after certification',
       track: 'DevOps & Cloud'
     },
     {
@@ -37,7 +37,7 @@ export function Testimonials({ lang, translations }: TestimonialsProps) {
       text: translations.testimonials.testimonial3,
       rating: 5,
       achievement: 'Leading a dev team',
-      timeToHire: '3 weeks after graduation',
+      timeToHire: '3 weeks after certification',
       track: 'Fullstack Cloud'
     },
   ]
