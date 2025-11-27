@@ -168,13 +168,13 @@ export function Partners({ lang, translations }: PartnersProps) {
               </div>
 
               {/* Category Partners Grid */}
-              <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto`}>
+              <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto ${
+                categoryIndex === 1 ? 'lg:[&>*:nth-child(7)]:col-start-2' : ''
+              }`}>
                 {category.partners.map((partner, index) => (
                   <div
                     key={index}
-                    className={`group relative p-6 rounded-xl border ${category.borderColor} bg-gradient-to-br ${category.color} hover:border-opacity-70 transition-all duration-300 flex items-center justify-center min-h-[160px] ${
-                      partner.name === 'Boukarou' ? 'col-start-2' : ''
-                    }`}
+                    className={`group relative p-6 rounded-xl border ${category.borderColor} bg-gradient-to-br ${category.color} hover:border-opacity-70 transition-all duration-300 flex items-center justify-center min-h-[160px]`}
                   >
                     {/* Hover effect background */}
                     <div className={`absolute inset-0 bg-gradient-to-r ${category.color.replace('/20', '/10')} rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300`} />
