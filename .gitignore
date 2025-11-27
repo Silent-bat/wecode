@@ -13,7 +13,6 @@ node_modules/
 
 # Environment variables
 .env*.local
-.env
 
 # Vercel
 .vercel
@@ -23,7 +22,6 @@ node_modules/
 next-env.d.ts
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -40,3 +38,7 @@ yarn-error.log*
 # Cache
 .cache/
 .parcel-cache/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
